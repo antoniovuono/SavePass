@@ -49,11 +49,19 @@ export function Home() {
   }
 
   function handleFilterLoginData() {
-    // Filter results inside data, save with setSearchListData
+    const filtredData = searchListData.filter(data => {
+        const validateData = data.service_name.toLocaleUpperCase().includes(searchText.toLocaleUpperCase());
+
+        if(validateData) return data;
+    });
+
+    setSearchListData(filtredData);
   }
 
   function handleChangeInputText(text: string) {
-    // Update searchText value
+    if(!text) setSearchListData(data);
+
+    setSearchText(text);
 
   }
 
