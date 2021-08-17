@@ -19,7 +19,7 @@
 
    <ul> 
     <li><b>Clonar o repositório na pasta desejada:</li></b>
-    <code> git clone https://github.com/antoniovuono/gofinances.git</code>
+    <code> git clone https://github.com/antoniovuono/SavePass.git</code>
    </ul>
    <ul> 
     <li><b>Instalar bibliotecas do projeto utilizando o comando:</li></b>
