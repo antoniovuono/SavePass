@@ -54,10 +54,12 @@ export function Home() {
 
   function handleChangeInputText(text: string) {
     // Update searchText value
+
   }
 
   useFocusEffect(useCallback(() => {
     loadData();
+    
   }, []));
 
   return (

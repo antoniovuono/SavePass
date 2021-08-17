@@ -31,6 +31,8 @@ const schema = Yup.object().shape({
 
 export function RegisterLoginData() {
   const { navigate } = useNavigation();
+  const navigation = useNavigation();
+
   const {
     control,
     handleSubmit,
@@ -43,6 +45,8 @@ export function RegisterLoginData() {
   });
 
   async function handleRegister(formData: FormData) {
+
+
     const newLoginData = {
       id: String(uuid.v4()),
       ...formData
@@ -60,7 +64,7 @@ export function RegisterLoginData() {
 
       await AsyncStorage.setItem(dataKey, JSON.stringify(dataFormated));
       reset();
-      console.log(dataFormated);
+      navigation.navigate("Home")
 
     } catch(error) {
         console.log(error);
