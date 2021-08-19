@@ -13,8 +13,6 @@
       <li>Typescript</li>
       <li>Styled-components</li>
       <li>AsyncStorage</li>
-      <li>Login Social com Google</li>
-      <li>Login Social com Apple</li>
 
 </ul>
 
