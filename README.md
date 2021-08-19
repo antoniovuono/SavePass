@@ -2,7 +2,10 @@
 <p> O projeto em questão está baseado em um aplicativo que visa realizar o controle e gerênciamento de senhas. Ele foi proposto para a realização de um dos desafios do programa de estudo do Ignite da Rocketseat.</p>
 
 <h2>Design:</h2>
-![Simulator Screen Shot - iPhone 12 - 2021-08-19 at 10 17 17](https://user-images.githubusercontent.com/7297243/130075344-12862e0d-e8d2-48a5-8a38-9b60c9491ea9.png)
+
+<img width="330" alt="Captura de Tela 2021-08-19 às 10 18 45" src="https://user-images.githubusercontent.com/7297243/130075780-cfd29f87-2bd5-4af4-b883-0562cd951d6d.png">
+
+
 
 <h2>TECNOLOGIAS UTILIZADAS:</h2>
 <ul>
